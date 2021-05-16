@@ -1,11 +1,13 @@
 {
     "compilerOptions": {
+        "experimentalDecorators": true,
         "target": "ES6",
         "outDir": "app/js",
         "noEmitOnError": true,
         "noImplicitAny": true,
         "removeComments": true,
-        "module": "system"
+        "module": "system",
+        "strictNullChecks": true
     },
     "include": [
         "app/ts/**/*"
