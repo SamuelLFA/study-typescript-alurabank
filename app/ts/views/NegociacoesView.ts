@@ -1,4 +1,7 @@
-class NegociacoesView extends View<Negociacoes> {
+import { Negociacoes } from '../models/index'
+import { View } from './index'
+
+export class NegociacoesView extends View<Negociacoes> {
     
     template(model: Negociacoes): string {
 
